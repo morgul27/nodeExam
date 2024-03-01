@@ -27,5 +27,3 @@ app.use(express.static(join(__dirname,'public')));
 app.listen(process.env.PORT || port)
 console.log("funciona")
 console.log('Escuchando por el puerto '+port+'...')
-
-
